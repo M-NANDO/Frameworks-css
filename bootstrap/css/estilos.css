@@ -1,0 +1,166 @@
+
+.encabezado {
+  background-color: rgba(178,37,16,0.7);
+  min-height: 10%;
+  border: none;
+  margin-left: 0;
+  margin-right: 0;
+}
+.cuerpo{
+  margin-left: 0;
+  margin-right: 0;
+}
+.navbar-inverse{
+  background-color: rgba(35,6,2,0.7);
+  border: none;
+  border-radius: 0px;
+}
+
+.logo-img {
+  margin-top: 2px;
+  width: 60px;
+}
+.columna{
+  min-height: 28px;
+}
+.redes-sociales{
+  float: right;
+}
+.titulos{
+  font-size: 40px;
+  font-weight: bolder;
+}
+.parrafos{
+  font-size: 17px;
+}
+.articulos h2{
+  margin-bottom: 0;
+}
+.articulo img{
+  margin-top: 15px;
+}
+.articulos{
+  /* padding-left: 0; */
+}
+.area{
+  border-radius: 8px;
+  max-height: 70px;
+  min-height: 70px;
+  max-width: 100%;
+}
+.areas{
+  padding-left: 0;
+  padding-right: 0;
+}
+.are{
+  padding-left: 0;
+}
+.glyphicon, .fa{
+  font-size: 64px;
+}
+.formulario .icono{
+  padding-left: 0px;
+}
+.frmultimo{
+  margin-bottom: 28px;
+}
+.glyphicon-search{
+  font-size: 20px;
+}
+.busca{
+  margin-top: 5px;
+}
+.footer{
+  background-color: rgba(178,37,16,0.7);
+  color: white;
+  padding-top: 10px;
+}
+
+@media (max-width: 769px){
+  .articulo img{
+    margin-top: 0px;
+    margin-bottom: 7px;
+    min-width: 100%;
+    /* height: 500px; */
+  }
+  .articulo, .articulos{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .area{
+    border-radius: 8px;
+    max-height: 60px;
+    min-height: 50px;
+    max-width: 100%;
+  }
+  .areas{
+    margin-bottom: 7px;
+  }
+  .glyphicon{
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  .redes-sociales{
+    float: none;
+    text-align: center;
+  }
+
+}
+
+/* media querys para tablets */
+@media (min-width: 770px){
+  .articulo img{
+    margin-top: 0px;
+    margin-bottom: 7px;
+    min-width: 100%;
+    height: 500px;
+  }
+  .articulo, .articulos{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .area{
+    border-radius: 8px;
+    max-height: 60px;
+    min-height: 50px;
+    max-width: 100%;
+  }
+  .areas{
+    margin-top: 7px;
+    margin-bottom: 10px;
+  }
+  .glyphicon{
+    font-size: 30px;
+    margin-top: 10px;
+  }
+}
+
+/* destock en adelante */
+@media (min-width: 992px){
+  .articulo img{
+    margin-top: 15px;
+    margin-bottom: 0;
+    width: auto;
+    height: auto;
+  }
+  .articulo, .articulos{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .area{
+    border-radius: 8px;
+    max-height: 70px;
+    min-height: 70px;
+    max-width: 100%;
+  }
+  .areas{
+    margin-bottom: 7px;
+  }
+  .glyphicon{
+    font-size: 64px;
+    margin-top: 0;
+  }
+  .glyphicon-search{
+    font-size: 20px;
+  }
+}
